@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+svg path {
+    height: 100%;
+}
+
+#button button {
+	background: none;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#button button:hover {
+	cursor: pointer;
+}
+
+#navbar {
+	position: fixed !important;
+	left: 50%;
+	color: #000 !important;
+	font-weight: bold;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	z-index: 1;
+}
+
+#navbar ul li a:hover {
+	background: transparent;
+}
+
+#nav-menu {
+	color: #000 !important;
+	font-weight: bold;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	border: none !important;
+	z-index: 1;
+	position: fixed !important;
+}
+
+#nav-menu a {
+	padding-top: 15px;
+	border: none;
+}
+
+#about {
+	background: #f3f6ff;
+}
+
+#about span {
+	font-size: 1.3rem;
+}
+
+#about address a {
+	line-height: 1.2;
+}
+
+
+.uk-navbar-nav>li>a {
+    color: #000;
+}
+
+.uk-navbar-nav>li>a:hover {
+    color: inherit;
+}
+
+.uk-button-default {
+    color: #000;
+}
+
+.uk-button-default:hover {
+    color: #000;
+}
+
+.uk-section {
+    padding-top: 0; 
+    margin-top: 0;
+}
+
+
+#sustainability {
+	width: 250px;
+	height: 250px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
