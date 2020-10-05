@@ -1,3 +1,180 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UiKit css & js link -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Studily | App for Students</title>
+</head>
+<body>
+
+    <nav id="navbar" class="uk-navbar-container uk-margin" uk-navbar>
+        
+        <div id="nav" class="uk-navbar-center">
+            <div id="nav-left" class="uk-navbar-center-left"><div>
+                <ul class="uk-navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div></div>
+            <div id="nav-right" class="uk-navbar-center-right"><div>
+                <ul class="uk-navbar-nav">
+                    <li><a href="#goal">Goal</a></li>
+                    <li><a href="#project">Project</a></li>
+                </ul>
+            </div></div>
+        </div>
+    </nav>
+
+    
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6159e6" fill-opacity="1" d="M0,32L24,37.3C48,43,96,53,144,53.3C192,53,240,43,288,69.3C336,96,384,160,432,165.3C480,171,528,117,576,101.3C624,85,672,107,720,128C768,149,816,171,864,165.3C912,160,960,128,1008,138.7C1056,149,1104,203,1152,213.3C1200,224,1248,192,1296,160C1344,128,1392,96,1416,80L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
+    <!-- Home -->
+    <div id="home" class="uk-section uk-section-default">
+        <div class="uk-container">
+            <div class="uk-child-width-expand@s" uk-grid>
+                <div style="background-color: transparent; box-shadow: none;" class="uk-grid-item-match">
+                    <div style="background-color: transparent; box-shadow: none;" class="uk-card uk-card-default uk-card-body">
+                        <img id="screens" src="Project/HomeAndWelcomeScreen.png">
+
+                    </div>
+                 </div>
+            
+                
+                <div>
+                    <h3 style="font-family: 'Poppins';">Welcome to<br><span style="font-size: 40px; font-weight: 600;">Studily</span></h3>
+                    <p>
+                        Studily is an application made for students created by students. This application will be to combat student issues like <span style="font-weight: 700; font-style: italic;">disorganization, failing to manage money, inability to stay healthy/active, poor academic achievements, poor sleeping habits, and procrastination.</span>
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about" class="uk-section uk-section-large uk-section-muted">
+        <div class="uk-container">
+            <div class="uk-child-width-expand@s" uk-grid>
+                <div style="padding-top: 50px;">
+                    <h1>hello.<br><span>I, the creator of Studily, Cesar Morales, am a highschool senior who is planning on creating an application that helps students maintain their physical/mental health as well as maintain their academic level.</span></h1>
+        
+                </div>
+
+                <div class="uk-grid-item-match">
+                    <div class="uk-card uk-card-body">
+                        <a href="https://iconscout.com/illustrations/working-with-laptop" target="_blank"><img src="Images/working-with-laptop.png" alt="Working With Laptop Illustration by Manypixels Gallery"></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Goal section -->
+    <div id="goal" class="uk-section uk-section-default">
+        <div class="uk-container" style="padding-top: 50px;">
+            <div class="uk-child-width-expand@s" uk-grid>
+                
+                <div style="width: 500px; background-color: transparent; box-shadow: none;" class="uk-grid-item-match">
+                    <div style="background-color: transparent; box-shadow: none;" class="uk-card uk-card-default uk-card-body">
+                        <img id="sustainability" src="Images/3_Good_Health_and_Well-Being-removebg-preview.png">
+                    </div>
+                 </div>
+            
+                <div>
+                    <h3 style="font-family: 'Poppins';">Sustainability Goal</h3>
+                    <p>
+                        Ensuring healthy lives and promoting well-being at all ages is essential to sustainable development. With <span style="font-weight: 700;">Studily</span>, students will be able to better maintain their physical and mental health. Students have several issues in their time in school and outside of it, ranging from them being 
+                        unable to manage money, not being organized, having poor grades, having poor sleep and eating 
+                        habits, and procrastination. My investigation method will include an app in which select students will be able to track such 
+                        problems (i.e. track their budget, organize their tasks, etc.)
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    
+    <!-- Project Info section -->
+    <div id="project" class="uk-section uk-section-large uk-section-default">
+        <div class="uk-container" style="padding-top: 50px;">
+    
+            <h3>Project Information</h3>
+            <p>Listed below are the functions of Studily</p>
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body"><img id="icons" src="Images/undraw_calendar_dutt.png"><br>
+                        <p>Ability for students to organize and plan out their homework/class schedule<br><br></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body"><img id="icons" src="Images/undraw_sleep_analysis_o5f9.png"><br>
+                        <p>Track and maintain a healthy sleep schedule<br><br><br><br></p></div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body"><img id="icons" src="Images/undraw_personal_finance_tqcd.png"><br>
+                        <p>Track their spending and maintain their financial health<br><br></p></div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body"><img id="icons" src="Images/undraw_healthy_habit_bh5w.png"><br>
+                        <p>Allow students to track their exercise and maintain a healthy lifestyle<br><br><br></p></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <div class="footer">
+
+        <svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6159E6" fill-opacity="1" d="M0,224L30,213.3C60,203,120,181,180,160C240,139,300,117,360,138.7C420,160,480,224,540,213.3C600,203,660,117,720,85.3C780,53,840,75,900,90.7C960,107,1020,117,1080,112C1140,107,1200,85,1260,96C1320,107,1380,149,1410,170.7L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+
+    </div>
+
+    <!-- <br><br> -->
+</body>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,4 +350,5 @@
 
     <!-- <br><br> -->
 </body>
+>>>>>>> dbcfaadef8a2f9239033d7805a809a41d192dac9
 </html>
