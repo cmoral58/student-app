@@ -32,6 +32,9 @@ body::-webkit-scrollbar-button {
 svg path {
     height: 100%;
 }
+svg#svg2 path {
+	height: 100px;
+}
 
 #button button {
 	background: none;
@@ -119,4 +122,10 @@ svg path {
     width: 100%;
     color: white;
     text-align: center;
+	height: 10px;
+	padding-top: none;
  }
+
+#project {
+	background: #f3f6ff;
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/studily-logo.png">
 
     <!-- UiKit css & js link -->
     <link rel="stylesheet" href="css/uikit.min.css" />
@@ -49,12 +50,15 @@
                 <ul class="uk-navbar-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#goal">Goal</a></li>
+                    
                 </ul>
             </div></div>
             <div id="nav-right" class="uk-navbar-center-right"><div>
                 <ul class="uk-navbar-nav">
-                    <li><a href="#goal">Goal</a></li>
+                    
                     <li><a href="#project">Project</a></li>
+                    <li><a href="#paper">Research Paper</a></li>
                 </ul>
             </div></div>
         </div>
@@ -66,24 +70,18 @@
     <!-- Home -->
     <div id="home" class="uk-section uk-section-default" style="height: 75%;">
         <div class="uk-container">
-            <div class="uk-child-width-expand@s" uk-grid>
-                <div style="background-color: transparent; box-shadow: none;" class="uk-grid-item-match">
+            <div class="uk-child-width-expand@s uk-grid" uk-grid>
+                <div style="background-color: transparent; box-shadow: none;" class="uk-grid-item-match uk-first-column">
                     <div style="background-color: transparent; box-shadow: none;" class="uk-card uk-card-default uk-card-body">
                         <img id="screens" src="Project/Phones.png" style="width: 80%; height: 100%; display: block;">
 
                     </div>
                  </div>
-
-
                 <div>
                     <h3 style="font-family: 'Poppins';">Welcome to<br><span style="font-size: 40px; font-weight: 600;">Studily</span></h3>
                     <p>
                         Studily is an application made for students created by students. This application will be to combat student issues like <span style="font-weight: 700; font-style: italic;">disorganization, failing to manage money, inability to stay healthy/active, poor academic achievements, poor sleeping habits, and procrastination.</span>
                     </p>
-                    
-                    <!-- <video style="align-items: center;" muted autoplay loop>
-                        <source src="Project\Project Video\Final_video.mp4" type="video/mp4">
-                    </video> -->
 
                 </div>
             </div>
@@ -91,14 +89,14 @@
         </div>
     </div>
 
-    <div class="uk-section uk-section-default">
-        <div class="uk-container">
-    
-            <video width="1000" muted autoplay loop style="display: block; margin: auto;">
+    <!-- <div class="uk-section uk-section-default">
+        <div class="uk-container"> -->
+            <!-- <img src="Project/Phones.png"> -->
+            <!-- <video width="1000" muted autoplay loop style="display: block; margin: auto;">
                 <source src="Project\Studily - Promo Video.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
+            </video> -->
+        <!-- </div>
+    </div> -->
 
     <!-- About section -->
     <div id="about" class="uk-section uk-section-large uk-section-muted">
@@ -150,7 +148,7 @@
 
 
     <!-- Project Info section -->
-    <div id="project" class="uk-section uk-section-large uk-section-default">
+    <div id="project" class="uk-section uk-section-large uk-section-muted">
         <div class="uk-container" style="padding-top: 50px;">
 
             <h3>Project Information</h3>
@@ -170,14 +168,28 @@
                         <p>Track their spending and maintain their financial health<br><br></p></div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body"><img id="icons" src="Images/undraw_healthy_habit_bh5w.png"><br>
-                        <p>Allow students to track their exercise and maintain a healthy lifestyle<br><br><br></p></div>
+                    <div class="uk-card uk-card-default uk-card-body"><img id="icons" src="Images/undraw_grades_j6jn.png"><br>
+                        <p>Students will see a 25% increase in productivity<br><br><br></p></div>
                 </div>
             </div>
 
+            <video width="1000" muted autoplay loop style="display: block; margin: auto; padding-top: 25px; padding-bottom: none;">
+                <source src="Project\Studily - Promo Video.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 
+    <!-- Research Paper Section -->
+    
+    <div id="paper" class="uk-section uk-section-large uk-section-default">
+        <div class="uk-container" style="padding-top: 50px; padding-bottom: none;">
+            <h3>Research Paper</h3>
+            <embed style="display: block; margin: auto;" src="Project\Research_Paper.pdf#toolbar=0" type="application/pdf" frameBorder="0" scrolling="auto"  height="800px" width="50%">
+        </div>
+    </div>
+    
+    
+    
 
 
     <!-- Footer -->
